@@ -1,18 +1,19 @@
 {
-  "name": "landing-page",
+  "name": "Coffee Alum",
   "authors": [
-    "Adam Braus <ajbraus@gmail.com>"
+    "corey.harrilal@students.makeschool.com"
   ],
-  "description": "",
+  "description": "Connect with alumni.",
   "main": "",
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/coreyarch1234/landing-page",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "public/vendor"
   ],
   "dependencies": {
     "jquery": "^3.1.1",
