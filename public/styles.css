@@ -17,7 +17,7 @@ section {
 }
 
 .picture {
-  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('./images/hiking.jpg') no-repeat center center;
+  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('./images/open-door.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size:  cover;
   -o-background-size: cover;
@@ -46,7 +46,7 @@ section {
 }
 
 .less-padding {
-   
+
 }
 
 
@@ -87,8 +87,16 @@ hr.dark {
   border: 1px solid #353839
 }
 
+
 .alert {
   position: fixed;
   width: 100%;
   top: 15px;
+}
+
+.big-text {
+
+  font-size: 600%;
+  width: 100%;
+  top: 10px;
 }
