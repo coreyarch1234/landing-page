@@ -5,6 +5,7 @@ a {
 section {
   min-height:430px;
   padding: 60px 0;
+  color: white;
 }
 
 .jumbotron {
@@ -16,14 +17,6 @@ section {
   margin-bottom:20px;
 }
 
-.picture {
-  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('./images/open-door.jpg') no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size:  cover;
-  -o-background-size: cover;
-  background-size: cover;
-  color: white;
-}
 
 .form-inline .form-group {
   margin-right: 5px;
@@ -94,9 +87,80 @@ hr.dark {
   top: 15px;
 }
 
-.big-text {
 
-  font-size: 600%;
+
+.big-text {
+    font-size: 600%;
+    line-height: 110%;
+    width: 100%;
+    top: 10px;
+}
+
+.picture {
+  background-image: url('./coffee-alum-steps.png');
+  -webkit-background-size: cover;
+  -moz-background-size:  cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+.align-text {
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    z-index: 2;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+
+}
+
+.align-title {
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    z-index: 2;
+    color: rgba(0, 0, 0, 1);
+    font-weight:350;
+}
+
+.first-block {
+    background-color: rgb(14, 94, 95);
+    opacity: 0.8;
+
+}
+
+.second-block {
+    background-color: rgb(255, 255, 255, 1);
+    opacity: 0.8;
+
+}
+
+.third-block {
+    background-color: rgb(242, 61, 1);
+    opacity: 0.7;
+
+}
+
+.videoWrapperOuter {
+  max-width:640px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.videoWrapperInner {
+  float: none;
+  clear: both;
   width: 100%;
-  top: 10px;
+  position: relative;
+  padding-bottom: 50%;
+  padding-top: 25px;
+  height: 0;
+}
+.videoWrapperInner iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
