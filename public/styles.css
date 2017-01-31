@@ -164,3 +164,36 @@ hr.dark {
   width: 100%;
   height: 100%;
 }
+
+
+input#mce-EMAIL.email{
+
+    padding: 16px 32px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    width: 30%;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+input#subscribe-button.button{
+
+    background-color: rgb(242, 61, 1);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+}
