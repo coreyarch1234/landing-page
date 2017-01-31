@@ -203,6 +203,7 @@ input#subscribe-button.button{
 
 #mc_embed_signup input.button{
     margin-left: 30% !important;
+    height: 20% !important;
 }
 
 }
