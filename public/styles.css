@@ -195,5 +195,14 @@ input#subscribe-button.button{
     transition-duration: 0.4s;
     cursor: pointer;
 
+    }
+
+#mc_embed_signup input.email{
+    margin-left: 25% !important;
 }
+
+#mc_embed_signup input.button{
+    margin-left: 35% !important;
+}
+
 }
