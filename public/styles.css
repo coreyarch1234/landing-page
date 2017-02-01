@@ -90,8 +90,8 @@ hr.dark {
 
 
 .big-text {
-    font-size: 600%;
-    line-height: 110%;
+    font-size: 500%;
+    line-height: 100%;
     width: 100%;
     top: 10px;
 }
@@ -128,6 +128,7 @@ hr.dark {
 .first-block {
     background-color: rgb(14, 94, 95);
     opacity: 0.8;
+    padding: 20px !important;
 
 }
 
@@ -199,11 +200,14 @@ input#subscribe-button.button{
 
 #mc_embed_signup input.email{
     margin-left: 20% !important;
+    height: 10% !important;
+
+
 }
 
 #mc_embed_signup input.button{
     margin-left: 30% !important;
-    height: 20% !important;
+    height: 10% !important;
 }
 
 }
